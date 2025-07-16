@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamsi Krishna-Portfolio</title>
+    <link rel="stylesheet" href="mediaqueries.css">
+     <script src="script.js"></script>
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><b>Vamsi Krishna</b> </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></1i>
+                <li><a href="#skills">Skills</a></1i>
+                <li><a href="#projects">Projects</a></1i>
+                <li><a href="#contact">Contact</a></1i>
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo"><b>Vamsi Krishna</b> </div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="change()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="change()">About</a></1i>
+                <li><a href="#skills" onclick="change()">Skills</a></1i>
+                <li><a href="#projects" onclick="change()">Projects</a></1i>
+                <li><a href="#contact" onclick="change()">Contact</a></1i>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="image/IMG-20240907-WA0015.jpg" alt="not found">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Vamsi Krishna</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="">
+                    Download resume</button>
+                    <button class="btn btn-color-1" onclick="location.href='#Contact'">
+                    Contact info</button>
+            </div>
+            <div id="socials-container">
+                <img src="image/circle-linkedin-512.webp" alt="My Linkedin profile"
+                class="icon" onclick="location.href='http://linkedin.com/in/vamsikrishna58'">
+
+                 <img src="image/icons8-github-30.png" alt="My Linkedin profile"
+                class="icon" onclick="location.href='https://github.com/vamsikrishna58'">
+            </div>
+        </div> 
+    </section>
+
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <p class="title">About Me</p>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="image/sideface.jpeg" alt="profile pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="image/creative-thinking.png" alt="skill pic" class="icon">
+                        <h3>skills</h3>
+                        <p>Fronted Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="image/open-book.png" alt="education pic" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree <br> M.Ca Master of Computer Applications (studying)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Motivated and detail-oriented aspiring front-end developer with a foundational knowledge of HTML and CSS. Currently upskilling in JavaScript to build dynamic, user-friendly web applications. Eager to join a collaborative team where I can contribute, learn, and grow in a professional development</p>
+                </div>
+            </div>
+        </div>
+        <img src="image/icons8-down-arrow-48.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#skills'">
+    </section>
+
+
+    <section id="skills">
+        <p class="section_text_p1">My Skills</p>
+        <h1 class="title">Skills</h1>
+        <div class="skill-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skill-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="image/icons8-tick-24.png" alt="skill icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>skilled</p>
+                            </div>
+                        </article>
+                         <article>
+                            <img src="image/icons8-tick-24.png" alt="skill icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>skilled</p>
+                            </div>
+                        </article>
+                         <article>
+                            <img src="image/icons8-tick-24.png" alt="skill icon" class="icon">
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <p>skilled</p>
+                            </div>
+                        </article>
+                         <article>
+                            <img src="image/icons8-tick-24.png" alt="skill icon" class="icon">
+                            <div>
+                                <h3>BOOTSTRAP</h3>
+                                <p>skilled</p>
+                            </div>
+                        </article>
+                         <article>
+                            <img src="image/icons8-tick-24.png" alt="skill icon" class="icon">
+                            <div>
+                                <h3>REACT JS</h3>
+                                <p>skilled</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="image/icons8-tick-24.png" alt="skill icon" class="icon">
+                            <div>
+                                <h3>GITHUB</h3>
+                                <p>skilled</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="skill-details-container">Projects</h1>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="image/Screenshot 2025-02-11 145957.png" alt="Project1" class="Project-img">
+            </div>
+            <h2 class="skill-sub-title Project-title">Project One</h2>
+            <div class="btn-container"></div>
+            <button class="btn btn-color-2 Project-btn" onclick="location.href='https://github.com/vamsikrishna58'">Calculator</button>
+            <button class="btn btn-color-2 Project-btn" onclick="location.href='https://calculator-beta-seven-85.vercel.app/'">Live Demo</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="image/mail.png" alt="emai" class="icon contact-icon">
+                <p><a href="krishna.vamc58@gmail.com">krishna.vamc58@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="image/circle-linkedin-512.webp" alt="emai" class="icon contact-icon">
+                <p><a  href="http://linkedin.com/in/vamsikrishna58">krishna.vamc58</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                 <ul class="nav-links">
+                <li><a href="#about">About</a></1i>
+                <li><a href="#skills">Skills</a></1i>
+                <li><a href="#projects">Projects</a></1i>
+                <li><a href="#contact">Contact</a></1i>
+            </ul>
+            </div>
+        </nav>
+        <p>copyright &#169; 2025 Vamsi Krishna. All Rights Reserved.</p>
+    </footer>
+</body>
+</html> 
