@@ -317,9 +317,8 @@ margin-bottom: 2rem;
     gap: 1.5rem;
 }
 article{
-    display: flex;
+    text-align: center;
     width: 15rem;
-    justify-content: space-around;
     gap: 0.5rem;
 }
 
